@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/jerry-weng/gy-271.svg)](https://travis-ci.org/jerry-weng/gy-271)
+
 # GY-271 Driver
 
 3-axis digital compass sensor driver.

@@ -20,16 +20,14 @@ var Addr = {
     data: 3,
     sr: 9,
     ir: 10
-}
+};
 
 module.exports = driver({
     attach: function (inputs, context, next) {
-        var that = this;
         this._i2c = inputs['i2c'];
 
         this._resolution = Resolution[1];
         this._setOperationMode(next);
-
     },
     exports: {
         _setOperationMode: function (callback) {
